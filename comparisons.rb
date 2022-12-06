@@ -23,25 +23,25 @@ puts "Is number_teachers greater than number_students?", number_teachers > numbe
 
 # YOU DO: print the result of the comparison: is number_teachers less than number_students?
 # this should print: true
-
+p number_teachers < number_students 
 # YOU DO: print the result of the comparison: is number_teachers equal to string_teachers?
 # this should print: false
-
+p number_teachers == string_teachers
 # YOU DO: print the result of the comparison: is number_teachers not equal to number_students?
 # this should print: true
-
+p number_teachers != number_students
 # YOU DO: print the result of the comparison: is number_students greater than or equal to 20?
 # this should print: true
-
+p number_students >= 20
 # YOU DO: print the result of the comparison: is number_students greater than or equal to 21?
 # this should print: false
-
+p number_students >= 21
 # YOU DO: print the result of the comparison: is number_students less than or equal to 20?
 # this should print: true
-
+p number_students <= 20
 # YOU DO: print the result of the comparison: is number_students less than or equal to 21?
 # this should print: true
-
+p number_students <= 21
 
 #-------------------
 # PART 2: Articulating what you are doing
@@ -54,20 +54,21 @@ puts "Is number_teachers greater than number_students?", number_teachers > numbe
 
 puts 4 < 9
 #YOU DO: Explain.
-
+# Evaluates whether 4<9, then prints true because four is less than nine. 
 books = 3
 puts 4 < books
 # YOU DO: Explain.
-
+# evalutes if the value assigned to books is greater than four, then prints false because 3<4
 friends = 6
 siblings = 2
 puts friends > siblings
 # YOU DO: Explain.
-
+# Evaluates if the value assigned to friends is bigger than the value assigned to siblings, and prints true because 6>2
 attendees = 9
 meals = 8
 puts attendees != meals
 # YOU DO: Explain.
+#Evaluates if the value assigned to attendees is NOT equal to the value assigned to meals, and evaluates as true because 8 does not equal 9. 
 
 
 #-------------------
@@ -90,15 +91,16 @@ age = 1
 
 # YOU DO:
 # Determine if the dog loves to play and loves treats
-
+puts loves_to_play and loves_treats
 
 # Determine if the dog loves to play and loves the dog park
-
+puts loves_to_play and loves_dog_park
 
 # Determine if the dog loves to play or loves the dog park
-
+puts loves_to_play or loves_dog_park
 
 # Determine if the dog loves to play and is a puppy
-
+puts loves_to_play and age < 0.5
 # What did your final line of code evaluate to? Why do you think that is? Explain.
 # ANSWER:
+# It evaluated to true because I guessed puppies are like 6 months old or less, and the age is set to 1 which is higher. 
